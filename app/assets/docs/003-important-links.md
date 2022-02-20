@@ -3,7 +3,7 @@
 ## Official Sites
 
 - [Sumcoin.net](https://sumcoin.org/)
-- [GitHub](https://github.com/sumcoin/)
+- [GitHub](https://github.com/sumcoin-labs/)
 - [Foundation](https://sumcoin.org/foundation.html)
 
 ## Forums

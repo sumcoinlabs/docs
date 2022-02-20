@@ -3,7 +3,7 @@ export default {
 
   allow_topbar_link: true,
   topbar_link_label: 'Sumcoin Docs Repo',
-  topbar_link_url: 'https://github.com/sumcoin/docs#sumcoin-official-documentation-repository',
+  topbar_link_url: 'https://github.com/sumcoin-labs/docs#sumcoin-official-documentation-repository',
 
   allow_font_size_control: true,
 

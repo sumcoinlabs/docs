@@ -109,9 +109,9 @@ Debian stable:
 
 (compiling for Raspbian stretch in this example)
 
-Download the latest .tar.gz from github.com/sumcoin.
+Download the latest .tar.gz from github.com/sumcoin-labs.
 
-> wget https://github.com/sumcoin/sumcoin/releases/download/v0.11.0sum/sumcoin-0.11.0.tar.gz
+> wget https://github.com/sumcoin-labs/sumcoin/releases/download/v0.11.0sum/sumcoin-0.11.0.tar.gz
 
 Debian build system is very strict about names, so we need to rename this to:
 
@@ -152,11 +152,11 @@ There are two official wrappers for this interface, a PHP one and a Python2.7+ o
 
 > Sumcoin_rpc is a simple and minimal library made for communication with sumcoind via JSON-RPC protocol. It has a single dependency - a Python requests library and it supports both mainnet and testnet sumcoin network with authentication or SSL encryption. There is a single class to be imported from the library - Client.
 
-https://github.com/sumcoin/sumcoin_rpc
+https://github.com/sumcoin-labs/sumcoin_rpc
 
 > sumcoin-php-rpc is a simple and minimal library made for communication with sumcoind via JSON-RPC protocol for PHP 7.1+. Easiest way to use is to use composer. Otherwise include RpcClient class in your project an you are good to go.
 
-https://github.com/sumcoin/sumcoin-php-rpc
+https://github.com/sumcoin-labs/sumcoin-php-rpc
 
 ### List of JSON-RPC calls
 
@@ -206,7 +206,7 @@ https://github.com/sumcoin/sumcoin-php-rpc
 
 Constants that may be useful when looking to integrate / develop with Sumcoin.
 
-Sumcoin source code repository: github.com/sumcoin/sumcoin
+Sumcoin source code repository: github.com/sumcoin-labs/sumcoin
 
 ### Mainnet
 

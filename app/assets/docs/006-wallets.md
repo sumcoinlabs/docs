@@ -443,7 +443,7 @@ Click continue until everything is finalized and completed.  You now have the Su
 
 ## Sumcoin Paper Wallet Guide
 
-You can find the source code for this wallet here: https://github.com/sumcoin/sumcoin-address-generator/
+You can find the source code for this wallet here: https://github.com/sumcoin-labs/sumcoin-address-generator/
 
 If you are interested in generating a paper wallet for holding your Sumcoin, this guide will walk you through the process.  First, navigate to this address: https://paperwallet.sumcoin.org/
 
