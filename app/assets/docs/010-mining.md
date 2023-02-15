@@ -28,6 +28,6 @@ If you want to calculate the profitability of mining Sumcoin, you can use this w
 
 ## Mining Confirmations
 
-Once a block has been mined, 520 blocks must be passed for the mining to be confirmed. This is roughly 3.61 days of time.
+Once a block has been mined, 100 blocks must be passed for the mining to be confirmed. This is roughly 1.5 hours of time.
 
 ---

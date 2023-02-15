@@ -8,7 +8,7 @@ There are two ways to contribute to Sumcoin Docs: Directly via Github website, o
 
 #### Directly via Github:
 
-1. Edit any of the [docs files](https://github.com/sumcoin-labs/docs/tree/master/app/assets/docs);
+1. Edit any of the [docs files](https://github.com/sumcoinlabs/docs/tree/master/app/assets/docs);
 2. Submit a Pull Request with your changes.
 
 #### Developing locally:
@@ -24,7 +24,7 @@ NPM 6.14.17
 
 1. Clone this repo: 
 ```
-git clone https://github.com/sumcoin-labs/docs.git
+git clone https://github.com/sumcoinlabs/docs.git
 ```
 2. Inside the cloned folder, run: 
 ```

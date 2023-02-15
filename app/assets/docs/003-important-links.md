@@ -4,7 +4,7 @@
 
 - [Sumcoin.org](https://sumcoin.org/)
 - [GitHub](https://github.com/sumcoinlabs/)
-- [Foundation](https://sumcoin.org/foundation.html)
+- [Foundation](https://sumcoinfoundation.org/)
 
 ## Forums
 
@@ -33,7 +33,7 @@
 
 ## Sumcoin myths
 
-- [Forum](https://talk.sumcoin.org/t/pillows-sumcoin-myths/2518)
+- [Forum](https://talk.sumcoin.org/t/pillows-sumcoin-myths/)
 
 ## Tools
 

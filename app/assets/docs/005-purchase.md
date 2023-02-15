@@ -2,12 +2,11 @@
 
 ## How to buy Sumcoin
 
-There are many ways to buy Sumcoin, although it may depend on your previous exchange access or location.
-You should have a Sumcoin wallet set up previously to making a purchase so that you have a place to store your Sumcoin.
+Numerous purchasing options exist for Sumcoin, although accessibility and location may factor into your decision. To secure your Sumcoin after buying, it's essential to set up a Sumcoin wallet in advance to have a dedicated storage location.
 
 ### Fiat gateways
 
-In order to purchase Sumcoin directly with a bank wire or debit card, there are several options for direct purchase, although these primarily support European wire transfers and purchases.  If you want to directly purchase with a card or bank transfer, you can use the following sites:
+For those interested in purchasing Sumcoin through a bank wire or debit card, several options are available for direct purchase, with a focus on supporting European wire transfers and transactions. If a direct purchase with a card or bank transfer is desired, the following sites can be utilized:
 
 > The list bellow is not regularly updated, to see the most recent data please visit: https://coinmarketcap.com/currencies/sumcoin/markets/reported/
 
@@ -27,7 +26,7 @@ Supports EUR
 https://www.livecoin.net/
 Supports both USD/RUR/EUR deposits
 
-If you are in the US, the above websites may not be available.  You must use an exchange that accepts you must buy a cryptocurrency like Bitcoin and transfer it to an exchange that lists Sumcoin, which will be discussed at a later time.
+While the previously mentioned websites are accessible in certain regions, they may not be available to those residing in the US. As an alternative, one can buy a cryptocurrency like Bitcoin on an exchange that accepts them, and then transfer it to an exchange that lists Sumcoin. Further details regarding this process will be discussed later.
 
 #### Coinbase
 
@@ -50,7 +49,7 @@ There are other websites that can be used to buy Bitcoin with a debit or credit 
 
 ## Exchanges
 
-If you already own cryptocurrency, the section about fiat gateways can be skipped since you most likely already have one.  Below is a list of exchanges which support Sumcoin and where it can be traded actively.  Send your coins there and you will be able to purchase Sumcoin.
+If you currently possess cryptocurrency, the section about fiat gateways can be skipped, as you probably already have a gateway in place. The following is a compilation of exchanges that actively trade Sumcoin, providing an opportunity to purchase the cryptocurrency by transferring your coins there.
 
 ### SUM/BTC Pairs
 
@@ -72,8 +71,8 @@ https://www.livecoin.net/
 
 https://www.therocktrading.com/en/offers/SUMBTC
 
-Each exchange comes with a variety of fees both in trading and withdrawals and user experience may vary.  As always, use strong passwords, 2FA, and cold storage as needed.
+Trading and withdrawal fees vary for each exchange and user experience may differ. As with any online transaction, strong passwords and 2-factor authentication should be employed, along with cold storage as necessary.
 
-Once you have made your purchase, you can withdraw your coins to the wallet you have chosen.
+After completing the purchase, Sumcoin can be withdrawn and sent to the wallet of your choosing.
 
 ---

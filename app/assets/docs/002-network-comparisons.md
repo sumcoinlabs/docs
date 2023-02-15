@@ -5,7 +5,7 @@ Major differences between the two are the fee market, ie. the absence of it in S
 
 ## Consensus algorithm
 
-Sumcoin is secured by Proof-of-Stake consensus. Proof-of-Work uses energy as a scarce resource as means of selecting a block producer, while Proof-of-Stake uses time as a scare resource measured in "coin age". Once a transaction has reached an age of thirty days, these coins become eligible for participation in consensus. Mature UTXOs are used as proof of stake and are presented as evidence throught the "coinstake" transaction of a new block. [Reference client](https://github.com/sumcoin-labs/sumcoin) will try to find a new block once every second. If block is accepted by the network, a reward will be given to the minter. After ninety (90) days, a transaction reaches its maximum maturity and minting probability is at its highest. This minting can be done by simple, low energy computers, such as a raspberry pi, making the process energy efficient when compared to Proof-of-Work power consumption.
+Sumcoin is secured by Proof-of-Stake consensus. Proof-of-Work uses energy as a scarce resource as means of selecting a block producer, while Proof-of-Stake uses time as a scare resource measured in "coin age". Once a transaction has reached an age of thirty days, these coins become eligible for participation in consensus. Mature UTXOs are used as proof of stake and are presented as evidence throught the "coinstake" transaction of a new block. [Reference client](https://github.com/sumcoinlabs/sumcoin) will try to find a new block once every second. If block is accepted by the network, a reward will be given to the minter. After ninety (90) days, a transaction reaches its maximum maturity and minting probability is at its highest. This minting can be done by simple, low energy computers, such as a raspberry pi, making the process energy efficient when compared to Proof-of-Work power consumption.
 
 Another benefit of Sumcoin's Proof-of-Stake mechanism is its monetary cost of attack. With Proof-of-Work, and individual can attempt to generate and verify faulty blocks without holding the Proof-of-Work coin or even a majority of the coin supply. Sumcoin requires the  malicious individual to hold Sumcoin with a coin age of thirty days minimum, as well as being required to hold a majority sum of the Sumcoin supply, increasing their risk massively. This makes such an attack economically unviable. The requirement of those verifying the blockchain to hold a portion of the supply means investors are protected from malicious outside sources who hold no coins.  Those who hold Sumcoin and use the network, share interest in the security of the chain.
 
@@ -37,7 +37,7 @@ While for PoS, the time advantage is negligible as you can still use the stake h
 ## Block size limit and block time spacing
 
 Bitcoin features the 1MB block size limits which serves to place the upward pressure on the transaction fee price, Sumcoin copies this parameter from the Bitcoin but it's economic model does not depend on scarcity of the block space.
-While block generation is a stochastic process, each chain is targeted to generate blocks based on a real time interval. Bitcoin generates a block every 30 Seconds, akin to Sumcoin PoS block generation, while Ethereum generates a block every 12 seconds.  Sumcoin PoW block generation is coupled to PoS block generation as well as PoW hash power and is therefore difficult to approximate, but the total block time of Sumcoin can be empirically estimated to be around 8.5 minutes. Considering this and the block size limit of 1MB, Bitcoin has a transaction per second (TPS) of about 7 tps, Sumcoin has an estimated 8 tps, and Ethereum has about 25 tps.
+While block generation is a stochastic process, each chain is targeted to generate blocks based on a real time interval. Bitcoin generates a block every 10 Minutes, akin to Sumcoin PoS block generation, while Ethereum generates a block every 12 seconds.  Sumcoin PoW block generation is coupled to PoS block generation as well as PoW hash power and is therefore difficult to approximate, but the total block time of Sumcoin can be empirically estimated to be around 30 Seconds. Considering this and the block size limit of 1MB, Bitcoin has a transaction per second (TPS) of about 7 tps, Sumcoin has an estimated 133 tps, and Ethereum has about 25 tps.
 
 <table>
 <thead>
@@ -64,7 +64,7 @@ While block generation is a stochastic process, each chain is targeted to genera
 <tr>
 <td>Active since:</td>
 <td>2009</td>
-<td>2012</td>
+<td>2018</td>
 <td>2015</td>
 </tr>
 </tr>
@@ -72,12 +72,12 @@ While block generation is a stochastic process, each chain is targeted to genera
 <td>Distribution method:</td>
 <td>PoW block reward</td>
 <td>PoW block reward / PoS block reward</td>
-<td>Initial Coin Offering / PoW block reward</td>
+<td>Initial Coin Offering / PoW block reward / POS</td>
 </tr>
 <tr>
 <td>Distribution:</td>
 <td>Limited, until 21M tokens exist in the system.</td>
-<td>Unlimited.</td>
+<td>Limited, 200M</td>
 <td>Unlimited.</td>
 </tr>
 </tr>
@@ -90,13 +90,13 @@ While block generation is a stochastic process, each chain is targeted to genera
 <tr>
 <td>Estimated transaction bandwidth:</td>
 <td>7 tx/sec</td>
-<td>8 tx/sec</td>
+<td>133 tx/sec</td>
 <td>25 tx/sec</td>
 </tr>
 <tr>
 <td>Block time:</td>
+<td>10 Minutes</td>
 <td>30 Seconds</td>
-<td>8.5 minutes</td>
 <td>12 seconds</td>
 </tr>
 <tr>

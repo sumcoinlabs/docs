@@ -2,7 +2,7 @@
 
 ## Graphics
 
-A variety of Sumcoin graphics are available here: https://github.com/sumcoin-labs/media
+A variety of Sumcoin graphics are available here: https://github.com/sumcoinlabs/media
 
 ## Brand Identity
 

@@ -120,7 +120,7 @@ The Minting tab is the fifth option and from here, you can see the coin age of y
 
 If you are interested in calculating the rough time until minting takes place, you can use this calculator: http://poscalculator.sumcointalk.org/
 
-Once minting occurs, the initial batch of coins will have their coin age reset, and the coins earned from minting will remain locked for 520 blocks, or roughly 3 days.  After this period, the coins will be available in the wallet.  As a note, you do not need to leave your wallet running 24/7, as the time spent staking does not increase the probability of minting taking place, as the highest coin age will always take precedence.  Holding longer also does not increase the minting reward.
+Once minting occurs, the initial batch of coins will have their coin age reset, and the coins earned from minting will remain locked for 100 blocks, or roughly 1.5 hours.  After this period, the coins will be available in the wallet.  As a note, you do not need to leave your wallet running 24/7, as the time spent staking does not increase the probability of minting taking place, as the highest coin age will always take precedence.  Holding longer also does not increase the minting reward.
 
 ### Addresses
 
@@ -443,7 +443,7 @@ Click continue until everything is finalized and completed.  You now have the Su
 
 ## Sumcoin Paper Wallet Guide
 
-You can find the source code for this wallet here: https://github.com/sumcoin-labs/sumcoin-address-generator/
+You can find the source code for this wallet here: https://github.com/sumcoinlabs/sumcoin-address-generator/
 
 If you are interested in generating a paper wallet for holding your Sumcoin, this guide will walk you through the process.  First, navigate to this address: https://paperwallet.sumcoin.org/
 
