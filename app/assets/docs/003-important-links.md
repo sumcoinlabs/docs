@@ -2,8 +2,8 @@
 
 ## Official Sites
 
-- [Sumcoin.net](https://sumcoin.org/)
-- [GitHub](https://github.com/sumcoin-labs/)
+- [Sumcoin.org](https://sumcoin.org/)
+- [GitHub](https://github.com/sumcoinlabs/)
 - [Foundation](https://sumcoin.org/foundation.html)
 
 ## Forums
@@ -14,13 +14,13 @@
 
 ## Chats
 
-- [Discord](https://discord.gg/XPxfwtG)
-- [Telegram](https://www.reddit.com/r/sumcoin)
+- [Discord](https://discord.gg/vHkByFaG)
+- [Telegram](https://www.reddit.com/r/sumcoins)
 
 ## Social Media
 
 - [Facebook](https://www.facebook.com/Sumcoin/)
-- [Twitter](https://twitter.com/SumcoinSUM)
+- [Twitter](https://twitter.com/SumcoinIndex)
 - [LinkedIn](https://www.linkedin.com/company/the-sumcoin-foundation/)
 
 ## News
