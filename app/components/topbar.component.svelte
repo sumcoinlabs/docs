@@ -6,7 +6,7 @@
     </div>
 
     <div class="logo" on:click="scrollTop()">
-      <img src="img/logo.svg" alt="Sumcoin Docs">
+      <img src="img/" alt="Sumcoin Docs">
     </div>
 
     {{#if settings.allow_font_size_control}}
