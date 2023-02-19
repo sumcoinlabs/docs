@@ -44,18 +44,18 @@ On Linux, Mac OSX, and other Unix-like systems, this can be accomplished by runn
 
 ### Overview
 
-![Wallet Overview](../img/wallet.png)
+![Wallet Overview](../img/wallet-.png)
 
 ### Windows Installation
-
+> Coming soon
 To install on Windows, you can find the download files here: https://sumcoin.org/wallet.html.  Once download is complete, extract the contents of the folder.  Depending on if your system is x32 or x64 bits, choosing the relevant folder.  Run the sumcoin-win_setup.exe and you will be guided through the installation process.  Once finishes, the client can be launched by running "sumcoin-qt.exe" from the appropriate folder.
 
 ### Mac Installation
-
+> Coming soon
 To install for MacOS, you can find the download files here: https://sumcoin.org/wallet.html.  Once the download is complete, extract the contents of the folder.  Inside the extracted folder, double click the "Sumcoin-Qt.dmg" file to open the client.
 
 ### Debian Installation
-
+> Coming soon
 As of April 2018, Sumcoin has official Debian repository hosted at https://sumcoin.github.io/deb-repo/.
 Repository is serving .deb packages for latest Debian stable, for amd64, arm64 and armhf hardware architectures.
 
@@ -82,7 +82,7 @@ ____________
 
 ### Wallet Encryption
 
-When a wallet is first generated, it will be unencrypted.  In order to encryt the wallet, one must go to Settings > Encrypt Wallet.  The client will then prompt the user for a password which will then be used to verify transactions and unlock the wallet for minting in the future.  It is important to make sure this password is remembered as losing access means losing access to any coins held in that wallet.  A wallet must be encrypted in order to participate in minting.
+When a wallet is first generated, it will be unencrypted.  In order to encrypt the wallet, one must go to Settings > Encrypt Wallet.  The client will then prompt the user for a password which will then be used to verify transactions and unlock the wallet for minting in the future.  It is important to make sure this password is remembered as losing access means losing access to any coins held in that wallet.  A wallet must be encrypted in order to participate in minting.
 
 ### Backups
 
@@ -96,35 +96,35 @@ From this tab you can see the "Available", "Pending", and "Total" balance of you
 
 ### Send
 
-![Send Tab](../img/send.png)
+![Send Tab](../img/send-.png)
 
 The send tab is used to send Sumcoin.  The "Pay To" section is where a target address can be entered.  If you wish to label the address for future use, such as an exchange, you may add it to your address book.  Amount determines the quantity of Sumcoin which will be sent in the transaction.  If the wallet is encrypted, the secure password must be entered before the send transaction can be finalized.
 
 ### Receive
 
-![Recieve Tab](../img/recieve.png)
+![Recieve Tab](../img/recieve-.png)
 
 The Receive tab lists all wallet addresses attached to the Sumcoin client.  Generating a new address is as simple as clicking the "New Address" button at the bottom of the screen.  The "Sign Message" button can also be used to verify ownership of a wallet.  [There is a tutorial on signing messages with the Sumcoin client here.](https://docs.sumcoin.org/#/how-to-sign-a-message-using-the-sumcoin-client)  The example addresses have been removed from the image for privacy sake.
 
 ### Transactions
 
-![Transactions Tab](../img/transactions.png)
+![Transactions Tab](../img/transactions-.png)
 
 The Transactions tab gives a full history of recent transactions that have come in and out of the wallet since its creation.  It will list the Date, Type, Address, and Amount.  This information can be exported as a .csv using the "Export" button on the bottom right of the screen.  The amounts have been removed from the image for privacy sake.
 
 ### Minting
 
-![Sumcoin staking](../img/staking.png)
+![Sumcoin staking](../img/staking-.png)
 
-The Minting tab is the fifth option and from here, you can see the coin age of your transaction.  The Address, Age, Balance, CoinDay, and MintProbability, are also displayed.  Until the transaction reaches 30 days of age, it will be displayed in red, with a CoinDay of 0.  In the picture above, you can see a transaction that is red and is not eligible for staking due to it only having a an Age of 49.  In the next 30 days, it has a probability of minting of roughly 54.94%.  In 4 days, that transaction will become eligible for minting and change to green color.  You can use the "Display minting probability within:" drop-down menu to estimate the probability of minting during the next period.  Once the 30 day period has passed, and the transaction has become eligible for minting, go to Settings > Decrypt Wallet for Minting Only, and enter your wallet password.  If you have not already encrypted your wallet, you will be asked to do so.  Once the wallet has been unlocked for minting, leaving it running will allow for minting to occur.  Making a transaction from that wallet will disrupt the coin age and the maturation process will have to be repeated.  Sending more coins will not disrupt the coin age.
-
+The Minting tab is the fifth option and from here, you can see the coin age of your transaction.  The Address, Age, Balance, CoinDay, and MintProbability, are also displayed.  Until the transaction reaches 1 day of age, it will be displayed in red, with a CoinDay of 0.  In the picture above, you can see a transaction that is red and is not eligible for staking due to it only having a an Age of 49.  In the next 1 day, it has a probability of minting of roughly 54.94%.  In 1 day, that transaction will become eligible for minting and change to green color.  You can use the "Display minting probability within:" drop-down menu to estimate the probability of minting during the next period.  Once the 30 day period has passed, and the transaction has become eligible for minting, go to Settings > Decrypt Wallet for Minting Only, and enter your wallet password.  If you have not already encrypted your wallet, you will be asked to do so.  Once the wallet has been unlocked for minting, leaving it running will allow for minting to occur.  Making a transaction from that wallet will disrupt the coin age and the maturation process will have to be repeated.  Sending more coins will not disrupt the coin age.
+> Coming soon
 If you are interested in calculating the rough time until minting takes place, you can use this calculator: http://poscalculator.sumcointalk.org/
 
 Once minting occurs, the initial batch of coins will have their coin age reset, and the coins earned from minting will remain locked for 100 blocks, or roughly 1.5 hours.  After this period, the coins will be available in the wallet.  As a note, you do not need to leave your wallet running 24/7, as the time spent staking does not increase the probability of minting taking place, as the highest coin age will always take precedence.  Holding longer also does not increase the minting reward.
 
 ### Addresses
 
-![Addresses](../img/addresses.png)
+![Addresses](../img/addresses-.png)
 
 Addresses is the final tab and displays the addresses saved to the Address Book from the Send tab.  This is handy for managing repeat use addresses such as exchanges.  The example address has been removed from the image for privacy sake.
 
@@ -134,9 +134,9 @@ ____________
 
 Creating a new address is very simple.  Navigate to the "Receive" tab and select the "New Address" button.  A window with a "Label" and "Address" field will appear.  Enter the name you want in the "Label" field.  You will be able to change this later.  Leave the "Address" field blank.  Click "Ok" to continue.  If you have already encrypted your wallet, you will need to enter your wallet password.
 
-![New Address Window](../img/newaddress.png)
+![New Address Window](../img/newaddress-.png)
 
-![New Address Created](../img/newaddress2.png)
+![New Address Created](../img/newaddress2s.png)
 
 You can see the new address now available.  If you want to change the name of the label of the address, double click the name and you will be able to enter a new one.
 
@@ -146,7 +146,7 @@ _________________________________________
 
 If you want to send Sumcoin, navigate to the "Send" tab.  We are going to send some Sumcoins to the address we created above.  This page has three fields: "Pay To", "Label", and "Amount".  Paste the address you want to send Sumcoins to into the "Pay To" field.  Make sure to verify that this address is correct.  If you already have a label for this wallet, it will automatically fill in the "Label" field.  If not, you can write your own in and it will be saved in your address book (Under the "Address" tab).  In the amount field, insert the number of Sumcoins you would like to send.  There is a drop down menu which allows you to determine if you want to send in denominations of "Sumcoins", "MilliSumcoins", "MicroSumcoins".  Make sure that you have enough to pay for the transaction fee.  When everything is finalized, press the "Send" button to confirm the transaction.  You will be prompted to confirm the transaction and must enter your wallet password to verify the transaction.  Once this is completed, you can view the transaction under the "Transactions" tab.
 
-![Sending Sumcoin](../img/sendingsumcoin.png)
+![Sending Sumcoin](../img/sendingsumcoins.png)
 
 _________________________________________
 
@@ -154,7 +154,7 @@ _________________________________________
 
 You can access multisig graphic interface in latest builds of Sumcoin-qt. Open Sumcoin-qt, click on File - Multisig. Now you see Multisig interface.
 
-![Sumcoin-qt multisig](../img/multisig.png)
+![Sumcoin-qt multisig](../img/multisig-olds.png)
 
 ### How to create a multisig address using QT wallet
 
@@ -179,11 +179,11 @@ The multisig address is generated with the complete public keys of the participa
 
 **Alice:**
 
-validateaddress "mw2pj33HMhRfRkKtceHcyKpPiGYkPdD4SM"
+validateaddress "Sw2pj33HMhRfRkKtceHcyKpPiGYkPdD4SM"
 
     {
       "isvalid" : true,
-      "address" : "mw2pj33HMhRfRkKtceHcyKpPiGYkPdD4SM",
+      "address" : "Sw2pj33HMhRfRkKtceHcyKpPiGYkPdD4SM",
       "ismine" : true,
       "isscript" : false,
       "pubkey" : "02c16ff447129fae7374d97212cf9fcd88a744da87ff2985869065cd6d17ee5c0b",
@@ -194,11 +194,11 @@ validateaddress "mw2pj33HMhRfRkKtceHcyKpPiGYkPdD4SM"
 
 **Bob:**
 
-validateaddress "mkLNecFNeiJgKjw6492nqDiQfKQs1JnLmE"
+validateaddress "SkLNecFNeiJgKjw6492nqDiQfKQs1JnLmE"
 
      {
        "isvalid" : true,
-       "address" : "mkLNecFNeiJgKjw6492nqDiQfKQs1JnLmE",
+       "address" : "SkLNecFNeiJgKjw6492nqDiQfKQs1JnLmE",
        "ismine" : true,
        "pubkey" : "025cc4b319284aabcdaef6e9a18af0bb73ac5d4b9f2556a214f30686b0173b316e",
        "iscompressed" : true,
@@ -208,11 +208,11 @@ validateaddress "mkLNecFNeiJgKjw6492nqDiQfKQs1JnLmE"
 
 **Charlie:**
 
-validateaddress "mm8Fwn92RU8zvJmH7TCpaYL3v4PTyjN4xd"
+validateaddress "Sm8Fwn92RU8zvJmH7TCpaYL3v4PTyjN4xd"
 
     {
       "isvalid" : true,
-      "address" : "mm8Fwn92RU8zvJmH7TCpaYL3v4PTyjN4xd",
+      "address" : "Sm8Fwn92RU8zvJmH7TCpaYL3v4PTyjN4xd",
       "ismine" : true,
       "isscript" : false,
       "pubkey" : "033ba42c942ff7e7fcf42ff604d6ef6c51826f9eea3a04308379c2ade98fb9e703",
@@ -244,7 +244,7 @@ Finally paste the hash of fully signed raw transaction into "Sign Transaction" b
 ### Spending from the multisig via command line interface
 
 Bob creates a transaction to spend the coins that Alice sent to the multisig address.
-The transaction will have 360 SUM (Alice's coins) as input and 359.99 SUM as output (because of the mandatory 0.01 SUM transaction fee; the transaction won't be accepted by the network without it).
+The transaction will have 3.60 SUM (Alice's coins) as input and 3.99 SUM as output (because of the mandatory 0.01 SUM transaction fee; the transaction won't be accepted by the network without it).
 
 
 **Bob:**
@@ -385,59 +385,35 @@ Congratulations, you have now cryptographically signed and verified a message!
 
 ## Hardware Wallets
 
-### Stakebox
-
-![stakebox](https://talk.sumcoin.org/uploads/default/original/2X/8/8581bbbb551a82aea92598a5aa93c4144e387317.png)
-
-
-Stakebox is a project by Sumcoin Foundation and PiSupply to deliver cost and power efficient, user friendly set-top box able to run a blockchain node.
-Stakebox is a plug and play Pi with the Sumcoin wallet pre-installed.What is need is a keyboard and monitor to plug in to and you are ready to go.
-
-*StakeBox is a brand by Pi Supply, which is a world leading distributor of Raspberry Pi mini computers.*
-
-
-#### Installation
-
-Beside ordering a pre-installed Stakebox from [PiSupply website](https://www.stakebox.org/products/sumcoin-stakebox) you can also make one yourself.
-
-What do you need:
-
-* Raspberry Pi (2 or newer)
-* image downloaded from files.sumcoin.org
-* an SD card (4GB +)
-* some spare time
-
-Download the image from [files.sumcoin.org](https://files.sumcoin.org/), use the [Etcher](http://etcher.io/) to load it to the SD card.
-
-Now follow the guide: https://www.stakebox.org/blogs/learn/getting-started-with-sumcoin-stakebox.
 
 __________________________
 
 ### Ledger Sumcoin Tutorial
 
 #### Ledger Live
+> Coming soon
 
 If you wish to store Sumcoin on the Ledger Nano or Ledger Blue, this tutorial will guide you through using the Ledger Live program
 
 Open the Ledger Live program and enter your password to unlock the wallet.  In order to store Sumcoin, we first need to add the Sumcoin wallet application to the Ledger device.  If this is the first time you are using a Ledger device, you will have to install the Bitcoin app first.  Follow the same steps to add the Bitcoin app, then do the same process for the Sumcoin application.  Select Manager from the sidebar and make sure your device is connected, unlocked, and allows access when prompted by the Ledger Manager.
 
-![Ledger Live main screen](../img/ledgerman_main.JPG)
+![Ledger Live main screen](../img/ledgerman_main-.JPG)
 
 Once this is done, you will be presented with a variety of apps that can be added.  Type in "Sumcoin" to find the Sumcoin app.  Click the "Install" button and you will be asked to confirm this on your Ledger device.  After a moment, the app will be done installing.  Click "Okay" to proceed.
 
-![Manager](../img/ledgerman_manager.JPG)
+![Manager](../img/ledgerman_manager-.JPG)
 
-![Installing](../img/ledgerman_installing.JPG)
+![Installing](../img/ledgerman_installing-.JPG)
 
 Once this is finished, the Sumcoin app is now installed on your Ledger device.  Now we need to add an actual wallet account which we can do by clicking "Portfolio" to return to our starting screen.  Once you are on the main screen, click the "+" by the Accounts tab to add a new asset.
 
-![Ledger Live main screen](../img/ledgerlive_main.JPG)
+![Ledger Live main screen](../img/ledgerlive_main-.JPG)
 
 This will open the menu where you can search for the asset account you would like to add.  Input "Sumcoin" and click continue.  You will have to unlock your Ledger again and navigate to the Sumcoin app.  To open it, press both buttons on the Ledger Nano device simultaneously.  Once this is done, Ledger Live will sync and you will have the option to name the newly created account.
 
-![Which Asset do you want to add?](../img/ledgerlive_select.JPG)
+![Which Asset do you want to add?](../img/ledgerlive_select-.JPG)
 
-![Adding Sumcoin](../img/ledgerlive_select2.JPG)
+![Adding Sumcoin](../img/ledgerlive_select2-.JPG)
 
 Click continue until everything is finalized and completed.  You now have the Sumcoin app, and the account added to your Ledger product and wallet.
 
@@ -447,21 +423,21 @@ You can find the source code for this wallet here: https://github.com/sumcoinlab
 
 If you are interested in generating a paper wallet for holding your Sumcoin, this guide will walk you through the process.  First, navigate to this address: https://paperwallet.sumcoin.org/
 
-![Paper Wallet Home Screen](../img/paperwallet_mainscreen.JPG)
+![Paper Wallet Home Screen](../img/paperwallet_mainscr.JPG)
 
 To being, click the large green Start button.  This will begin the wallet generation process.  In order to ensure randomness, you will be asked to move your mouse cursor around for a period until a wallet address is generated.  This movement of the mouse adds entropy to the generation of an truly random address
 
-![Swipe finger for randomness](../img/paperwallet_random.JPG)
+![Swipe finger for randomness](../img/paperwallet_ran.JPG)
 
-![Keep Swiping](../img/paperwallet_keepswiping.JPG)
+![Keep Swiping](../img/paperwallet_keepswip.JPG)
 
 Once you have moved the mouse enough, the wallet will be generated and you will be presented with the public and private key for the new wallet.
 
-![Finished!](../img/paperwallet_finished.JPG)
+![Finished!](../img/paperwallet_fi.JPG)
 
 To export the wallet, click the green share icon on the left side of the QR code.  You will then be presented with the options displayed below.
 
-![Saving Options](../img/paperwallet_savingoptions.JPG)
+![Saving Options](../img/paperwallet_saving.JPG)
 
 *Save .txt locally
    *This option will download the wallet as a text file.*
@@ -478,38 +454,6 @@ This concludes the tutorial on the paper wallet generator.  This platform provid
 
 ##  Unofficial client implementations
 
-### Coinomi
-
-https://www.coinomi.com/
-
-### Coinspot
-
-https://www.coinspot.com.au
-
-### CoinVault
-
-https://www.coinvault.io/
-
-### Cryptonator
-
-https://www.cryptonator.com/
-
-### HolyTransaction
-
-https://holytransaction.com/
-
-### Ledger
-
-https://www.ledger.com/
-
-### Magnum
-
-Airdrop focused wallet
-
-https://magnumwallet.co
-
-### UberPay
-
-http://uberpay.io/
+> Coming soon
 
 ---
