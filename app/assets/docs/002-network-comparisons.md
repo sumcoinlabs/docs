@@ -5,21 +5,15 @@ Major differences between the two are the fee market, ie. the absence of it in S
 
 ## Consensus algorithm
 
-Sumcoin is secured by Proof-of-Stake consensus. Proof-of-Work uses energy as a scarce resource as means of selecting a block producer, while Proof-of-Stake uses time as a scare resource measured in "coin age". Once a transaction has reached an age of thirty days, these coins become eligible for participation in consensus. Mature UTXOs are used as proof of stake and are presented as evidence throught the "coinstake" transaction of a new block. [Reference client](https://github.com/sumcoinlabs/sumcoin) will try to find a new block once every second. If block is accepted by the network, a reward will be given to the minter. After ninety (90) days, a transaction reaches its maximum maturity and minting probability is at its highest. This minting can be done by simple, low energy computers, such as a raspberry pi, making the process energy efficient when compared to Proof-of-Work power consumption.
+Sumcoin is secured by Proof-of-Stake consensus. Proof-of-Work uses energy as a scarce resource as means of selecting a block producer, while Proof-of-Stake uses time as a scare resource measured in "coin age". Once a transaction has reached an age of thirty days, these coins become eligible for participation in consensus. Mature UTXOs are used as proof of stake and are presented as evidence throught the "coinstake" transaction of a new block. [Reference client](https://github.com/sumcoinlabs/sumcoin) will try to find a new block once every second. If block is accepted by the network, a reward will be given to the minter. After ninety (90) days, a transaction reaches its maximum maturity and minting probability is at its highest. This minting can be done by simple, very low energy computers, such as a raspberry pi, making the process energy efficient when compared to Proof-of-Work power consumption.
 
-Another benefit of Sumcoin's Proof-of-Stake mechanism is its monetary cost of attack. With Proof-of-Work, and individual can attempt to generate and verify faulty blocks without holding the Proof-of-Work coin or even a majority of the coin supply. Sumcoin requires the  malicious individual to hold Sumcoin with a coin age of thirty days minimum, as well as being required to hold a majority sum of the Sumcoin supply, increasing their risk massively. This makes such an attack economically unviable. The requirement of those verifying the blockchain to hold a portion of the supply means investors are protected from malicious outside sources who hold no coins.  Those who hold Sumcoin and use the network, share interest in the security of the chain.
+Another benefit of Sumcoin's Proof-of-Stake mechanism is its monetary cost of attack. With Proof-of-Work, and individual can attempt to generate and verify faulty blocks without holding the Proof-of-Work coin or even a majority of the coin supply. Sumcoin requires the  malicious individual to hold Sumcoin with a coin age of a one day minimum, as well as being required to hold a majority sum of the Sumcoin supply, increasing their risk massively. This makes such an attack economically unviable. The requirement of those verifying the blockchain to hold a portion of the supply means investors are protected from malicious outside sources who hold no coins.  Those who hold Sumcoin and use the network, share interest in the security of the chain.
 
 ## Distribution
 
-Sumcoin is continually distributed via PoW block rewards. At the time of writing there is 27,264,390 SUM issued with annual inflation of 2.37%.
-The `MAX_MONEY` variable in the Sumcoin source code is nothing but a placeholder.
-There is no final number of Sumcoins issued, while inflation is steadily diverging toward fixed 1%.
-Sumcoin PoW block reward is product of network Proof-of-Work hashrate: the higher the network hashrate, the lower the block reward.
-This mechanism is effectively "pegging" the issuance of Sumcoins to the development of Scrypt ASIC miners. Reasoning behind this decision is that it's expected that development of Scrypt miners represents the level of advancement of general cryptocurrency scene, at least that is something that is visible to the blockchain and can be encoded into an algorithm.
+Sumcoin was initially distributed via PoW block rewards. At the time of writing there are 200,000,000 SUM mined through POW with no annual inflation of of any kind.
+There is a final number of Sumcoins that can be mined, which is 200 Million coins.  As of 2023, no further Sumcoins will come into supply and validation of Transactions are strictly handled by Proof-of-Stake (POS).
 
-Proof-of-Work reward formula is: `block_subsidy = 9999 / difficulty ^ (1/4)`
-
-Proof-of-Work coin mint rate is a function of difficulty, for every 16x in difficulty mint rate is halved.
 
 ## Fee market
 
@@ -32,7 +26,7 @@ Due to these economic properties of Sumcoin a question arises: Why do Sumcoin mi
 From a spectator looking at this from a Bitcoin oriented perspective the answer is that Sumcoin block miners want to process transactions so they allow Sumcoins to be burned - thus making their own stake in the network more valuable.
 However when the intricacies of PoS are learned it is understood that with Sumcoin minters (PoS miners) include transactions because it doesn't cost much to include them, while producing empty blocks reduces the value of the blockchain, and therefore of their stake. The burned fees are not really an argument as the effect on their holdings is negligible.
 Bitcoin miners always start off mining an empty block, otherwise they lose the time it takes to validate the transactions and signatures, as time is money on the Bitcoin network. Only after they have validated the txns to include and have computed the merkle root, they start mining blocks with txns.
-While for PoS, the time advantage is negligible as you can still use the stake hash of a few seconds ago. (hrobeers, 30.08.2017)
+While for PoS, the time advantage is negligible as you can still use the stake hash of a few seconds ago.
 
 ## Block size limit and block time spacing
 
