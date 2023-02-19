@@ -1,25 +1,25 @@
 # Marketing
 
 ## Graphics
-
+> coming soon
 A variety of Sumcoin graphics are available here: https://github.com/sumcoinlabs/media
 
 ## Brand Identity
 
 Please use these color codes on your Sumcoin related websites whenever possible. This will help us keep the Sumcoin ecosystem and its branding and visuals consistent.
 
-Green:
+Blue:
 #276BCF
 RBG: 39, 107, 207
-CMYK: 81, 48, 0, 19
+CMYK: 66, 39, 0, 19
 
 White: #ffffff
 
 The Sumcoin text logo uses the following font:
-Font: FF Mark
-Type: Mark-Medium
-Website: http://www.ffmark.com/
+Font:
+Type:
+Website:
 
-The Sumcoin website and wallets use the Roboto font for its content.
+
 
 ---
