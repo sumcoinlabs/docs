@@ -238,7 +238,7 @@ In the "Spend Funds" tab of the multisig dialog, on the left there is "Inputs" t
 After that is set, click on the "Create Transaction" button bellow, and copy the resulting hash to your peers for further signing.
 Finally paste the hash of fully signed raw transaction into "Sign Transaction" box bellow and click send.
 
-![Sumcoin-qt multisig spending](../img/multisig-spend.png)
+![Sumcoin-qt multisig spending](../img/multisig-spend-.png)
 
 
 ### Spending from the multisig via command line interface
