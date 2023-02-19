@@ -2,7 +2,7 @@
 
 Hello, and welcome to the Sumcoin Documentation website. We hope to help you understand more about this coin, its philosophy, and technologies that run behind it. Before getting too technical, we invite you to dive a little bit into the history of Sumcoin, learning why it was created, and the purposes behind it.
 
-Sumcoin's core focus is on securely storing all types of value with adaptive inflation, speed, and stability through a unique pricing mechanism that relies on an index rate. Additionally, Sumcoin introduced Proof-of-Stake, a blockchain consensus algorithm that provides efficient and sustainable security while also allowing for user governance. This combination of a stable and adaptable pricing mechanism, along with the innovation of Proof-of-Stake, has made Sumcoin a powerful and trustworthy cryptocurrency network.
+Sumcoin's core focus is on secure storage, extremely fast transaction speed, with a coin where price stability through a unique pricing mechanism using an index rate. Additionally, since 2023 Sumcoin uses Proof-of-Stake, a blockchain validation consensus algorithm that provides efficient and sustainable security while also allowing for user governance. This combination of a stable and adaptable pricing mechanism via indexing the crypto market, along with the innovation of Proof-of-Stake, has made Sumcoin a powerful and trustworthy cryptocurrency network.
 
 ## Sumcoin Genesis: 2018
 
