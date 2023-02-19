@@ -10,38 +10,7 @@ For those interested in purchasing Sumcoin through a bank wire or debit card, se
 
 > The list bellow is not regularly updated, to see the most recent data please visit: https://coinmarketcap.com/currencies/sumcoin/markets/reported/
 
-#### The Rock Trading
-https://www.therocktrading.com/
-TheRockTrading offers SEPA direct deposits and offers Sumcoin directly on the platform, while offering no trading fees on SUM.
 
-### AnycoinDirect
-https://anycoindirect.eu/en/buy-sumcoin
-Supports EUR
-
-#### LiteBit
-https://www.litebit.eu/en/buy/sumcoin
-Supports EUR
-
-#### Livecoin.net
-https://www.livecoin.net/
-Supports both USD/RUR/EUR deposits
-
-While the previously mentioned websites are accessible in certain regions, they may not be available to those residing in the US. As an alternative, one can buy a cryptocurrency like Bitcoin on an exchange that accepts them, and then transfer it to an exchange that lists Sumcoin. Further details regarding this process will be discussed later.
-
-#### Coinbase
-
-https://coinbase.com
-CoinBase is one of the most popular broker sites and is arguably the most commonly used for US based citizens.
-
-#### Gemini
-
-https://gemini.com
-Gemini also offers fiat purchasing options for Bitcoin with bank wire options.
-
-#### OkCoin
-
-https://www.okcoin.com/lang/en-US/
-Offers fiat deposits by wire to buy Bitcoin and other common coins.
 
 It is strongly recommended to purchase Bitcoin as it has the most traded pairs for the exchanges that list Sumcoin which will be discussed in the section below.  Once you have made a purchase, send those coins over to your chosen exchange and make your purchase of Sumcoin.
 
@@ -55,21 +24,7 @@ If you currently possess cryptocurrency, the section about fiat gateways can be 
 
 > The list bellow is not regularly updated, to see the most recent data please visit: https://coinmarketcap.com/currencies/sumcoin/markets/reported/
 
-#### Bittrex
 
-https://bittrex.com/Market/Index?MarketName=BTC-SUM
-
-#### HitBTC
-
-https://hitbtc.com/SUM-to-BTC
-
-#### Livecoin
-
-https://www.livecoin.net/
-
-#### The Rock Trading
-
-https://www.therocktrading.com/en/offers/SUMBTC
 
 Trading and withdrawal fees vary for each exchange and user experience may differ. As with any online transaction, strong passwords and 2-factor authentication should be employed, along with cold storage as necessary.
 
