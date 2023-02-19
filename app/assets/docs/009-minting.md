@@ -27,12 +27,12 @@ The win in proof-of-stake minting, the calculated hash is compared to the curren
 * Whenever this PoS difficulty is higher than the current network PoS difficulty your Sumcoin client can mint a PoS block.
 * PoS blocks can be rejected (orphans) if several people mint a PoS block within a given window (2 hours also called time-drift). Only one (the chain with longest coin age) will be accepted.
 * Minting splits the transaction in two if coin age < 90 days.
-* PoS block reward is the total tx fees for the solved block. See RFC0018 for more details [RFC0018](https://github.com/sumcoinlabs/rfcs/blob/master/text/0018-pos-reward/0018-pos-reward.md#detailed-design)
+* PoS block reward is the total tx fees for the solved block.
 * A transaction that just staked has its coins locked for 100 confirmations (about 1.5 hours).
 * Merging transactions, spending coins, etc. burns coinage (resets it to 0).
 * The PoS reward is directly added to your transaction which staked (if this transaction is split in two because coinage < 90 days, the reward is equally distributed to both resulting transactions).
 
-## Sumcoin v0.5 Proof-of-Stake protocol
+## Sumcoin v20.2 Proof-of-Stake protocol
 
 ![Sumcoin PoS diagram](../img/pos-diagram.svg)
 
