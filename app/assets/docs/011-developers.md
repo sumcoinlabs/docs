@@ -212,8 +212,8 @@ Sumcoin source code repository: github.com/sumcoinlabs/sumcoin
 
 | Attribute | Value |
 |-----------|-------|
-| p2pkh Base58 prefix | P |
-| p2sh Base58 prefix | p |
+| p2pkh Base58 prefix | S |
+| p2sh Base58 prefix | s |
 | p2pkh Base58 prefix (hex) | 0x37 |
 | p2sh Base58 prefix (hex) | 0x75 |
 | Magic bytes |  \xe6\xe8\xe9\xe5 |
@@ -222,10 +222,10 @@ Sumcoin source code repository: github.com/sumcoinlabs/sumcoin
 | Genesis hash bytes (little-endian) |  \xe3\x27\xcd\x80\xc8\xb1\x7e\xfd\xa4\xea\x08\xc5\x87\x7e\x95\xd8\x77\x46\x2a\xb6\x63\x49\xd5\x66\x71\x67\xfe\x32\x00\x00\x00\x00 |
 | Genesis tx hash hex | 3c2d8f85fab4d17aac558cc648a1a58acff0de6deb890c29985690052c5993c2 |
 | Genesis tx hash bytes |  \xc2\x93\x59\x2c\x05\x90\x56\x98\x29\x0c\x89\xeb\x6d\xde\xf0\xcf\x8a\xa5\xa1\x48\xc6\x8c\x55\xac\x7a\xd1\xb4\xfa\x85\x8f\x2d\x3c |
-| Default port | 9901 |
+| Default port | 3333 |
 | Default RPC port | 3332 |
 | BIP44 coin type| 0x80000006 |
-| bech32 prefix | pc |
+| bech32 prefix | sum |
 
 ### Testnet
 
@@ -241,10 +241,10 @@ Sumcoin source code repository: github.com/sumcoinlabs/sumcoin
 | Genesis hash bytes (little-endian) |  \x06\x9f\x7c\xc4\xae\x81\xca\x0c\x7c\x72\xcc\x30\xe6\x8c\x65\xb0\x17\xcd\x17\x3e\x50\x96\x65\x7f\x73\xbb\x57\xf7\x01\x00\x00\x00  |
 | Genesis tx hash hex | 3c2d8f85fab4d17aac558cc648a1a58acff0de6deb890c29985690052c5993c2 |
 | Genesis tx hash bytes |  \xc2\x93\x59\x2c\x05\x90\x56\x98\x29\x0c\x89\xeb\x6d\xde\xf0\xcf\x8a\xa5\xa1\x48\xc6\x8c\x55\xac\x7a\xd1\xb4\xfa\x85\x8f\x2d\x3c |
-| Default port | 9903 |
-| Default RPC port | 9904 |
+| Default port | 13333 |
+| Default RPC port | 13332 |
 | BIP44 coin type| 0x80000006 |
-| bech32 prefix | tpc |
+| bech32 prefix | tsum |
 
 ## Transaction format
 
@@ -276,14 +276,14 @@ As of Sumcoin 0.11, timestamp is no longer required and transaction format is ex
 ## Creating transaction
 
 In this simple example it it will be demonstrated how to use popular bitcore library to create a Sumcoin transaction.
-Example will be using node.js and javascript. Similar libaries can be found for practically all other programming languages though.
+Example will be using node.js and javascript. Similar libraries can be found for practically all other programming languages though.
 Using bitcore is possible because Sumcoin is based of Bitcoin and the two share more than 99% of the code.
 
 ```
 const bitcore = require('bitcore-lib');
 
 //
-// Add sumcoin network params
+// Add Sumcoin network params
 //
 
 bitcore.Networks.add({
@@ -327,7 +327,7 @@ console.log("This is my address: ", myAddress.toString()); // this is the addres
 // Assemble, sign and send a transaction
 //
 
-// Find appopriate utxo manually using a blockexplorer, this is just an example
+// Find appopriate utxo manually using a block explorer, this is just an example
 const utxo = {
   "txId" : "2643f9721cee24c489b58a123e86619dc08e044dbaeb19a58443a4c866c5bf8d",
   "outputIndex" : 0,
@@ -336,13 +336,13 @@ const utxo = {
   "satoshis" : 50000
 };
 
-var rec = "mwudtnoRS13KasEYv8Pthf7Qu4G1eLHgnZ"; // random reciever, replace with one you like
+var rec = "mwudtnoRS13KasEYv8Pthf7Qu4G1eLHgnZ"; // random receiver, replace with one you like
 
 const transaction = new bitcore.Transaction()
     // Expects an array of utxos
     .from(utxo)
     .feePerKb(10000) // data on Sumcoin costs 0.01 SUM / kB
-    .to(reciever, 1) // sending 1 tSUM to reciever
+    .to(receiver, 1) // sending 1 tSUM to receiver
     .addData("my test transaction!") // Add transaction metadata
     .change(myAddress) // change
     .sign(privateKey);
@@ -419,8 +419,9 @@ sync the block chain.
 
 ### Where can I download a `bootstrap.dat`?
 
+> coming soon
 We've put some recent copies on our [file server](https://files.sumcoin.org) :)
-
+> coming soon 
 * [Mainnet bootstrap.dat.zip](https://files.sumcoin.org/download/sumcoin_mainnet_2018_08_06_bootstrap.dat.zip) Scrypt `66c494e0c2a4c78ba19f14a3781ca77f1b8b16f3833fb85c10959ee991764a4c` | [torrent](https://files.sumcoin.org/download/sumcoin_mainnet_2018_08_06_bootstrap.dat.zip.torrent) | [magnet](magnet:?xt=urn:btih:9fc1f0d09a6598ae96ba5d8b9ac5caca0ae92402&dn=sumcoin%5Fmainnet%5F2018%5F08%5F06%5Fbootstrap.dat.zip&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ilibr.org%3A80%2Fannounce&tr=http%3A%2F%2Fatrack.pow7.com%2Fannounce&tr=http%3A%2F%2Fbt.henbt.com%3A2710%2Fannounce&tr=http%3A%2F%2Fmgtracker.org%3A2710%2Fannounce&tr=http%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=http%3A%2F%2Fopen.touki.ru%2Fannounce.php&tr=http%3A%2F%2Fp4p.arenabg.ch%3A1337%2Fannounce&tr=http%3A%2F%2Fpow7.com%3A80%2Fannounce&tr=http%3A%2F%2Fretracker.krs-ix.ru%3A80%2Fannounce)
 * [Mainnet bootstrap.dat.tar.gz](https://files.sumcoin.org/download/sumcoin_mainnet_2018_08_06_bootstrap.dat.tar.gz) Scrypt `bac807186735347e2c7ccbfecb3d91045de32246258a7ba3e3d0a9c2a10b8ff0` | [torrent](https://files.sumcoin.org/download/sumcoin_mainnet_2018_08_06_bootstrap.dat.tar.gz.torrent) | [magnet](magnet:?xt=urn:btih:77f1c5352e9eca71e9f4f1e31487e7d13900a335&dn=sumcoin%5Fmainnet%5F2018%5F08%5F06%5Fbootstrap.dat.tar.gz&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ilibr.org%3A80%2Fannounce&tr=http%3A%2F%2Fatrack.pow7.com%2Fannounce&tr=http%3A%2F%2Fbt.henbt.com%3A2710%2Fannounce&tr=http%3A%2F%2Fmgtracker.org%3A2710%2Fannounce&tr=http%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=http%3A%2F%2Fopen.touki.ru%2Fannounce.php&tr=http%3A%2F%2Fp4p.arenabg.ch%3A1337%2Fannounce&tr=http%3A%2F%2Fpow7.com%3A80%2Fannounce&tr=http%3A%2F%2Fretracker.krs-ix.ru%3A80%2Fannounce)
 * [Testnet bootstrap.dat.zip](https://files.sumcoin.org/download/sumcoin_testnet_2018_08_06_bootstrap.dat.zip) Scrypt `1312aaaf0d8466b6f7006bac60a5cad4daf36e1241f791924e45bc5959ff2452` | [torrent](https://files.sumcoin.org/download/sumcoin_testnet_2018_08_06_bootstrap.dat.zip.torrent) | [magnet](magnet:?xt=urn:btih:c70afb5100953362b45df75133e01bf1f9466e04&dn=sumcoin%5Ftestnet%5F2018%5F08%5F06%5Fbootstrap.dat.zip&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ilibr.org%3A80%2Fannounce&tr=http%3A%2F%2Fatrack.pow7.com%2Fannounce&tr=http%3A%2F%2Fbt.henbt.com%3A2710%2Fannounce&tr=http%3A%2F%2Fmgtracker.org%3A2710%2Fannounce&tr=http%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=http%3A%2F%2Fopen.touki.ru%2Fannounce.php&tr=http%3A%2F%2Fp4p.arenabg.ch%3A1337%2Fannounce&tr=http%3A%2F%2Fpow7.com%3A80%2Fannounce&tr=http%3A%2F%2Fretracker.krs-ix.ru%3A80%2Fannounce)
